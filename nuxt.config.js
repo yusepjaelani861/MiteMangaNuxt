@@ -26,7 +26,7 @@ export default {
   ],
 
   publicRuntimeConfig: {
-    baseAPI_URL: process.env.BASE_URL || 'http://localhost:3000',
+    baseAPI_URL: process.env.BASE_URL || 'https://api.mitemanga.my.id',
   },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
