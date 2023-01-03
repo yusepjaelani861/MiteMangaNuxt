@@ -3,7 +3,7 @@
         <nuxt-link :to="'/komik/' + komik.slug">
             <div class="bg-gray-500 rounded">
                 <div class="flex justify-center">
-                    <img :src="'https://i0.wp.com/'+ komik.image.replace('https://', '')"
+                    <img :src="'https://api.mitenime.my.id/api/v1/images/?url=https://i0.wp.com/'+ komik.image.replace('https://', '')"
                         :alt="komik.title" class="object-contain h-64 rounded-t-md" />
                 </div>
                 <div class="flex flex-col justify-center items-center bg-gray-400 w-full px-4 py-1 rounded-b-md h-20">

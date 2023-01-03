@@ -3,7 +3,7 @@
         <div v-if="success === true">
             <div class="md:flex text-gray-300 font-light mb-4">
                 <div class="flex-shrink-0 md:w-80 w-full mr-4 mb-4">
-                    <img :src="'https://i0.wp.com/' + komik.image.replace('https://', '')" alt="One Piece"
+                    <img :src="'https://api.mitenime.my.id/api/v1/images/?url=https://i0.wp.com/' + komik.image.replace('https://', '')" alt="One Piece"
                         class="object-contain h-full rounded-md" />
                 </div>
                 <div class="break-words">

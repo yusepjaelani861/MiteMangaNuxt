@@ -17,8 +17,9 @@
                     </li>
                 </ul>
             </div>
-
-            <input type="text" class="bg-white rounded p-2" placeholder="Search" />
+            <form action="/search" method="GET">
+                <input name="title" type="text" class="bg-white rounded p-2" placeholder="Search" />
+            </form>
         </div>
     </div>
 </template>

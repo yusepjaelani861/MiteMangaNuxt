@@ -50,7 +50,7 @@ export default {
   },
   mounted() {
     window.onscroll = () => {
-      if (this.$route.path === '/' && window.innerHeight + document.documentElement.scrollTop === document.documentElement.offsetHeight) {
+      if (this.$route.path === '/' && this.pagination.next_page !== null && window.innerHeight + document.documentElement.scrollTop === document.documentElement.offsetHeight) {
         if (this.isLoading === false) {
           this.isLoading = true
           setTimeout(() => {
